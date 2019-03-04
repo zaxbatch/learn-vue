@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import DataBinding from '@/components/DataBinding'
 import Header from './Header'
 
 Vue.config.productionTip = false
@@ -20,4 +21,11 @@ new Vue({
   router,
   components: { Header },
   template: '<Header/>'
+})
+
+new Vue({
+  el: '#data-binding',
+  router,
+  components: { DataBinding },
+  template: '<DataBinding/>'
 })

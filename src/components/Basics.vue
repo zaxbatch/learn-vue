@@ -1,7 +1,8 @@
 <template>
   <div class="basics">
-    <h1>Basics</h1>
+    <h1>{{ title + " - " + message}}</h1>
     <h2>{{ msg }}</h2>
+    <div id="data-binding"></div>
   </div>
 </template>
 
@@ -10,7 +11,8 @@ export default {
   name: 'Basics',
   data () {
     return {
-      msg: 'Get Your Toes Wet'
+      title: 'Basics',
+      message: 'Get Your Toes Wet'
     }
   }
 }
