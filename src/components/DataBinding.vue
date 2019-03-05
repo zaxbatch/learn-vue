@@ -2,7 +2,7 @@
   <div id="data-binding">
     <h2 class="hover" v-bind:title="message">{{ title }}</h2>
     <p>{{ credits + " " + developer }}</p>
-
+    <hr>
   </div>
 </template>
 

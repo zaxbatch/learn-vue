@@ -3,6 +3,7 @@
     <h1>{{ title + " - " + message}}</h1>
     <h2>{{ msg }}</h2>
     <div id="data-binding"></div>
+    <div id="basic-stuff"></div>
   </div>
 </template>
 

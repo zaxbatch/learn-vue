@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import DataBinding from '@/components/DataBinding'
+import BasicStuff from '@/components/BasicStuff'
 import Header from './Header'
 
 Vue.config.productionTip = false
@@ -28,4 +29,11 @@ new Vue({
   router,
   components: { DataBinding },
   template: '<DataBinding/>'
+})
+
+new Vue({
+  el: '#basic-stuff',
+  router,
+  components: { BasicStuff },
+  template: '<BasicStuff/>'
 })
